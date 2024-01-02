@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C0B72182B437931007FC262 /* TwitterReactsStockAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B72172B437931007FC262 /* TwitterReactsStockAppApp.swift */; };
-		4C0B721A2B437931007FC262 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B72192B437931007FC262 /* ContentView.swift */; };
-		4C0B721C2B437934007FC262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B721B2B437934007FC262 /* Assets.xcassets */; };
-		4C0B721F2B437934007FC262 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B721E2B437934007FC262 /* Preview Assets.xcassets */; };
+		4C0B72262B4379C8007FC262 /* TwitterReactsStockApp in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B72252B4379C7007FC262 /* TwitterReactsStockApp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4C0B72142B437931007FC262 /* TwitterReactsStockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterReactsStockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C0B72172B437931007FC262 /* TwitterReactsStockAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterReactsStockAppApp.swift; sourceTree = "<group>"; };
-		4C0B72192B437931007FC262 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4C0B721B2B437934007FC262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4C0B721E2B437934007FC262 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C0B72252B4379C7007FC262 /* TwitterReactsStockApp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TwitterReactsStockApp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +29,7 @@
 		4C0B720B2B437931007FC262 = {
 			isa = PBXGroup;
 			children = (
-				4C0B72162B437931007FC262 /* TwitterReactsStockApp */,
+				4C0B72252B4379C7007FC262 /* TwitterReactsStockApp */,
 				4C0B72152B437931007FC262 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,25 +40,6 @@
 				4C0B72142B437931007FC262 /* TwitterReactsStockApp.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4C0B72162B437931007FC262 /* TwitterReactsStockApp */ = {
-			isa = PBXGroup;
-			children = (
-				4C0B72172B437931007FC262 /* TwitterReactsStockAppApp.swift */,
-				4C0B72192B437931007FC262 /* ContentView.swift */,
-				4C0B721B2B437934007FC262 /* Assets.xcassets */,
-				4C0B721D2B437934007FC262 /* Preview Content */,
-			);
-			path = TwitterReactsStockApp;
-			sourceTree = "<group>";
-		};
-		4C0B721D2B437934007FC262 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				4C0B721E2B437934007FC262 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +100,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0B721F2B437934007FC262 /* Preview Assets.xcassets in Resources */,
-				4C0B721C2B437934007FC262 /* Assets.xcassets in Resources */,
+				4C0B72262B4379C8007FC262 /* TwitterReactsStockApp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +111,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C0B721A2B437931007FC262 /* ContentView.swift in Sources */,
-				4C0B72182B437931007FC262 /* TwitterReactsStockAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
